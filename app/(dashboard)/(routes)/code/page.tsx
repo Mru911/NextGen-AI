@@ -20,8 +20,9 @@ import { cn } from "@/lib/utils";
 import { UserAvatar } from "@/components/user-avatar";
 import { BotAvatar } from "@/components/bot-avatar";
 import ReactMarkdown from "react-markdown";
-import { useProModal } from "@/app/hooks/use-pro-modal";
+// import { useProModal } from "@/app/hooks/use-pro-modal";
 import {toast} from 'react-hot-toast'
+import { useProModal } from "@/hooks/use-pro-modal";
 
 
 const CodePage = () => {

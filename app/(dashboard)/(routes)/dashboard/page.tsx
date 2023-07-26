@@ -1,5 +1,4 @@
 "use client";
-import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import {
@@ -13,7 +12,7 @@ import {
 import Lottie from "lottie-react";
 import animation from "./../../../.././public/animation_lkb1h1dr.json";
 
-import Image from "next/image";
+
 import { useRouter } from "next/navigation";
 
 const tools = [

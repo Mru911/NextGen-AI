@@ -1,5 +1,6 @@
 "use client"
-import { useProModal } from "@/app/hooks/use-pro-modal";
+import { useProModal } from "@/hooks/use-pro-modal";
+
 import { Badge } from "@/components/ui/badge";
 import { tools } from "@/constants";
 import {toast} from 'react-hot-toast'

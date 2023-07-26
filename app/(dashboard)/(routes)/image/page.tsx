@@ -12,7 +12,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { Form, FormControl, FormField, FormItem } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-// import { useProModal } from "@/hooks/use-pro-modal";
+
 
 import { Empty } from "@/components/empty";
 import { Loader } from "@/components/loader";
@@ -28,7 +28,8 @@ import {
 } from "@/components/ui/select";
 import { Card, CardFooter } from "@/components/ui/card";
 import Image from "next/image";
-import { useProModal } from "@/app/hooks/use-pro-modal";
+import { useProModal } from "@/hooks/use-pro-modal";
+
 
 const ImagePage = () => {
   const router = useRouter();

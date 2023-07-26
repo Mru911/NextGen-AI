@@ -17,7 +17,8 @@ import { Empty } from "@/components/empty";
 import { toast } from "react-hot-toast";
 
 import { formSchema } from "./constants";
-import { useProModal } from "@/app/hooks/use-pro-modal";
+import { useProModal } from "@/hooks/use-pro-modal";
+
 
 const VideoPage = () => {
   const router = useRouter();
